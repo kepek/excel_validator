@@ -4,12 +4,20 @@ This is simple Python script to validate content in Excel files. It contains mos
 can be extended. Validation rules are stored in *YAML* files.
 
 It was created in my *free* time to improve process of parsing excel files in my company. 
- 
+
 ## Requirements
 
 Python 2.7
  
 All necessary python libraries are listed in [requirements.txt](../master/requirements.txt)
+ 
+## Build
+
+To compile `excel_validator` for your OS, make sure you have virtualenv installed. Then just run this command:
+
+```sh
+./build.sh
+```
  
 ## Script parameters
  
